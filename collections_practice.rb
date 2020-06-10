@@ -28,6 +28,6 @@ end
 
 def find_a(array)
 array.each do |x|
-  x.find("a")
+  x.detect("a")
   end
 end
