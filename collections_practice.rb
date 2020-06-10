@@ -31,3 +31,10 @@ array.find_all do |x|
   x[0] == "a" || x[0] == "A"
   end
 end
+
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum += num
+  end
+end
