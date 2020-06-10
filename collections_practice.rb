@@ -39,3 +39,9 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  array.collect.each_with_index do |element, index|
+    
+  end
+end
